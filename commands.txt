@@ -1,0 +1,13 @@
+git status  (changes)
+
+add changes
+git add file name full path
+
+git push
+
+git commit -m "message"
+
+pull
+git pull origin master
+
+git clone
