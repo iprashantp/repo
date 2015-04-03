@@ -2,7 +2,6 @@
 2. All you need is to get the object of "WatchServiceManager" and register the properties in property files to start watching.
 
 eg.
-
 WatchServiceManager wsm = WatchServiceManager.GetInstance();
 String file = "E:\\file.properties";
 
