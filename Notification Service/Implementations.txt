@@ -1,0 +1,18 @@
+1. you can use the feature of this Service once you implement the "NotificationHandler" interface.
+2. All you need is to get the object of "WatchServiceManager" and register the properties in property files to start watching.
+
+eg.
+
+WatchServiceManager wsm = WatchServiceManager.GetInstance();
+String file = "E:\\file.properties";
+
+##Registering for a property to watch##
+
+wsm.Register(file, "property_name",caller_object); /*caller_object is "this"*/
+
+##DeRegistering for a property(or set of properties) that were being watched##
+
+wsm.DeRegister(file, "property_name",caller_object); /*caller_object is "this"*/
+
+##you can also use set of properties for Registering or Deregistering
+You need to create a HashSet of property names and pass HashSet as the second argument in Register()/DeRegister() function.

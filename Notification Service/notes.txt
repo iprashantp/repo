@@ -1,0 +1,3 @@
+1. Add these dependencies given in dependencies.txt file to your POM file of the maven project.
+2. Copy the jar files to C:\users\.m2\<corresponding folder>
+3. add the notification service jar to your project.
